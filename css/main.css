@@ -12,11 +12,19 @@ body{
 		height: 100%;
 
 }
-   .banner{
-   	border-radius: 5px 5px 0px 0px;
-   	border: 1px solid blue;
-   	height: 100px;
-   	width: 102.43%;
-   	margin: 0px 0px 0px -15px;
-   	background-color: blue;
+.navbar-custom {
+    background-color:#f9f9f9;
+    color:blue;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:blue;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color:blue ;
+    background-color:#ececec;
+}
+.navbar-custom .navbar-brand {
+    color:blue;
 }
