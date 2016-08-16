@@ -5,7 +5,6 @@ body{
      background-size: cover;
      background-repeat:no-repeat;
     display: compact;
-
 }
 .container{
 	background-color: white;
@@ -13,21 +12,28 @@ body{
 	border-radius: 5px;
 	margin: 0px 10% 0px 10%;
 		width: 80%;
+    min-height: 100vh;
 		height: auto;
 
 }
 .navbar-custom {
+    font-family: Roboto;
+    font-size: 12pt;
     background-color:#f9f9f9;
-    color:blue;
+          color:#074B84 ;
     border-radius:0;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:blue;
+      color:#074B84 ;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color:blue ;
-    background-color:#ececec;
+    color:#074B84 ;
+    border-width: 2px;
+border-bottom-width:2px;
+border-bottom-color:grey;
+border-bottom-style: solid;
+width: 100%;
 }
 .navbar-custom .navbar-brand {
     color:blue;
@@ -40,3 +46,7 @@ body{
        height: 400px;
        background-color: grey;
      }
+.body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
